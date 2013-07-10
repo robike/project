@@ -1,0 +1,418 @@
+/* CSS Document */	
+	
+* {
+	margin: 0px;
+    font-family: arial, georgia;
+ }
+
+#container {
+	background: white;
+	width: 1000px;
+	margin: 0 auto;
+		   }
+			
+#header {
+	background: white;
+	height: 100px;
+	margin-top: 5px;
+		}
+			
+#antet1 {
+	background: white;
+    width: 250px;
+	height: 100px;
+	float: left;
+		}
+			
+#antet2 {
+	background: white;
+    width: 220px;
+    height: 30px;
+    margin-left: 225px;
+    font-size: small;
+	float: left;
+		}
+
+#antet2 ul {
+	list-style-type: none;
+    padding: 0px;
+    padding-top: 5px;
+		 }
+				
+#antet2 li { display: inline; }
+				
+#antet2 li a:link, #antet2 li a:visited {
+	text-decoration: none;
+    color: grey;
+			                       }
+       
+#antet2 li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+                }
+	 
+#antet3 {
+	background: white;
+    width: 230px;
+	height: 30px;
+	margin-left: 75px;
+    font-size: small;
+	float: left;
+		}
+
+#antet3 ul {
+	list-style-type: none;
+    padding: 0;
+    padding-top: 5px;
+		  }
+				
+#antet3 li { display: inline;}
+
+#antet3 img { vertical-align: text-top; }
+				
+#antet3 li a:link, #antet3 li a:visited { 
+    text-decoration: none;
+    color: grey;
+                                   }
+
+#antet3 li a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+                }
+
+	
+#antet4 {
+	background: white;
+    width: 525px;
+	height: 38px;
+    margin-left: 225px;
+    margin-top: 15px;
+	float: left;
+		}
+
+#meniupr {
+	background: white;
+	height: 40px;
+    width: 1000px;
+    margin-top: 20px;
+		 }
+
+#meniupr ul {
+	list-style-type: none;
+    padding: 0;
+    padding-top: 5px;
+		  }
+         
+#meniupr li { display: inline; }
+		
+#meniupr li a:link, #meniupr li a:visited {                             
+	text-decoration: none;
+	font-weight: bold;
+    font-style: italic;
+    border: 1px solid silver;
+    background-color: grey; 
+	border-radius: 3px;
+    box-shadow: inset 0 1px 3px white, inset 0 -10px 10px white, 0 2px 1px silver;	 
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px 14px 7px;
+                                     }
+#meniupr li a:hover {
+    text-decoration: none;
+	font-weight: bold;
+    font-style: italic;
+	border: 1px solid silver;
+	background-color: grey;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px white, inset 0 -10px 10px white, 0 2px 1px silver;
+	color: black;
+    text-shadow: 1px 1px 1px black;
+                 }
+			
+#meniusec {
+	background: white;
+	width: 170px;
+	height: 765px;
+    margin-top: 15px;
+    float: left;
+		 }
+
+#mensec1 { padding: 0; }
+
+#mensec1 li {
+    list-style-type:none;
+    display: block;
+	text-decoration: none;
+    font-style: italic;
+	background: url("imgsite/mensec.png") no-repeat transparent;
+	color: #F5F5F5;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+          }
+
+#mensec2 { padding: 0; }
+
+#mensec2 li {
+    margin-top: 15px;
+    list-style-type:none;
+    display: block;
+	text-decoration: none;
+    font-style: oblique;
+	background: url("imgsite/mensec.png") no-repeat transparent;
+	color: #F5F5F5;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+         }
+	
+#mensec { padding: 0px; }
+			
+#mensec li{list-style-type:none;}
+	
+#mensec li a:link, #mensec li a:visited {
+	display: block;
+	text-decoration: none;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: #808080;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+									}
+
+#mensec li a:hover {
+	display: block;
+	text-decoration: none;
+    font-weight: bold;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: black;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+			    }
+
+#mensec3 { padding: 0px; }
+			
+#mensec3 li{list-style-type:none;}
+	
+#mensec3 li a:link, #mensec3 li a:visited {
+	display: block;
+	text-decoration: none;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: #808080;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+									 }
+						 
+#mensec3 li a:hover {
+	display: block;
+	text-decoration: none;
+    font-weight: bold;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: black;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+				 }
+				 
+#mensec4 { padding: 0; }
+
+#mensec4 li {
+    margin-top: 15px;
+    list-style-type:none;
+    display: block;
+	text-decoration: none;
+    font-style: oblique;
+	background: url("imgsite/mensec.png") no-repeat transparent;
+	color: #F5F5F5;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+         }
+
+#mensec5 { padding: 0px; }
+			
+#mensec5 li{list-style-type: none;}
+	
+#mensec5 li a:link, #mensec5 li a:visited {
+	display: block;
+	text-decoration: none;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: #808080;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+									 }
+#mensec5 li a:hover {
+	display: block;
+	text-decoration: none;
+    font-weight: bold;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: black;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+				 }
+				 
+#mensecimg1 {
+    width: 170px;
+    margin-top: 15px;
+    height: 130px;
+            }
+
+#mensecimg2 {
+    width: 170px;
+    margin-top: 15px;
+    height: 55px;
+            }
+
+.img { width: 100%; }
+
+#maincontent {
+	background: white;
+    width: 630px;
+    height: 1250px;
+	margin: 15px 15px 15px 15px;
+    float: left;
+		    }
+.pcShowProducts {
+	text-align: center;
+    margin-top: 5px;
+	width: 100%;
+                }
+       
+.pcShowProductsH {
+    width: 196px;
+    height: 233px;
+	background: url("imgsite/sablon.png") no-repeat transparent;
+                 }
+
+.style1 {
+    float: left;
+    width: 100px;
+    text-align: left;
+    margin-top: 3px;
+        }
+
+.style2 { vertical-align: middle; }
+       
+.tabelmic1 { height: 22px;}
+
+.pcShowProductPriceH {
+    float: left;
+    width: 90px;
+    text-align: right;
+    color: black;
+    padding: 6px 3px;
+                     }
+
+.pcShowProductName {
+    clear: both;
+    width: 196px;
+    height: 34px;
+                   }
+.tabelmic2 { 
+    width: 196px;
+    height: 34px;
+           }
+
+.pcShowProductName a:link, .pcShowProductName a:visited {
+    text-decoration: none;
+    color: grey;
+													   }
+
+.pcShowProductName a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+                          }
+
+.pcShowProductImageH {
+    height: 100px;
+    padding: 15px;
+                     }
+
+.style3 {
+    float: left;
+    padding: 11px 0 0 5px;
+        }
+				  
+#rightcontent {
+	background: white;
+    width: 170px;
+    height: 765px;
+	margin-top: 15px;
+    float: left;
+		     }
+
+.style6 {
+    float: left;
+    text-align: center;
+    width: 80px;
+    margin-left: 460px;
+        }
+		
+#footer {
+	background: url("imgsite/footer.png") no-repeat transparent;
+    height: 170px;
+    margin-top: 15px;
+    clear: both;
+	   }
+       
+.style4 {
+    float: left;
+    padding: 15px 0 0 25px;
+    text-align: left;
+    font-size: small;
+    width: 225px;
+        }
+
+.style5 { line-height: 20px; }
+
+.span1 { 
+    color: #CE6E00;
+    font-weight: bold; 
+       }
+
+.style5 a:link, .style5 a:visited {
+    text-decoration: none;
+    color: grey;
+                                 }
+
+.style5 a:hover {
+    text-decoration: none;
+	color: black;
+               }
+
+#end {
+    background: url("imgsite/footer.jpg") no-repeat scroll center top transparent;; 
+    width: 1000px;
+    height: 15px;
+    margin-top: 15px; 
+	font-size: small;
+    color: grey;
+    float: left;
+    }
+
+.span {
+	font-weight: bold;
+    font-style: italic;
+      }
+
+.align { float: right; }
+      
+#end a:link, #end a:visited {
+    text-decoration: none;
+    color: grey;
+                          } 
+
+#end a:hover {
+    text-decoration: none;
+	color: black;
+			}

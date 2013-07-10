@@ -1,0 +1,150 @@
+/* CSS Document */	
+
+#meniupr {
+	margin-top: 15px;
+	width: 100%;
+	height: 30px;
+	background-color: #F5F5F5;
+	border: thin #FFFAFA solid;
+	border-radius: 7px;
+	box-shadow: inset 0 1px 3px #DCDCDC, inset 0 5px 5px #DCDCDC, 0 2px 1px #DCDCDC;
+	color: #DCDCDC;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+		 }
+
+#meniupr ul {
+	list-style-type: none;
+	padding: 3px 0 0 0;
+		  }
+         
+#meniupr li { 
+	display: inline;
+	font-size: large;
+	padding-left: 20px;
+		  }
+		  
+#meniupr li a:link, #meniupr li a:visited {                             
+	text-decoration: none;
+    font-style: italic; 
+    color: #A9A9A9;
+	text-shadow: 1px 1px 1px black;
+                                     }
+#meniupr li a:hover {
+    text-decoration: none;
+    font-style: italic;
+	color: black;
+    text-shadow: 1px 1px 1px black;
+                 }
+			
+#meniusec {
+	background: white;
+	width: 170px;
+	height: 1000px;
+    margin-top: 15px;
+    float: left;
+		 }
+
+#mensec1 { padding: 0; }
+
+#mensec1 li {
+    list-style-type:none;
+    display: block;
+	text-decoration: none;
+    font-style: italic;
+	background-color: #696969;
+	border: 1px solid silver;
+	border-radius: 2px;
+	box-shadow: inset 0 1px 3px grey, inset 0 5px 5px white, 0 2px 1px silver;
+	color: #F5F5F5;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+          }
+
+#mensec2 { padding: 0; }
+
+#mensec2 li {
+    margin-top: 15px;
+    list-style-type:none;
+    display: block;
+	text-decoration: none;
+    font-style: oblique;
+	background-color: #696969;
+	border: 1px solid silver;
+	border-radius: 2px;
+	box-shadow: inset 0 1px 3px grey, inset 0 5px 5px white, 0 2px 1px silver;
+	color: #F5F5F5;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+         }
+	
+#mensec { padding: 0px; }
+			
+#mensec li{list-style-type:none;}
+	
+#mensec li a:link, #mensec li a:visited {
+	display: block;
+	text-decoration: none;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: #808080;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+									}
+
+#mensec li a:hover {
+	display: block;
+	text-decoration: none;
+    font-weight: bold;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: black;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+			    }
+
+#mensec3 { padding: 0px; }
+			
+#mensec3 li{list-style-type:none;}
+	
+#mensec3 li a:link, #mensec3 li a:visited {
+	display: block;
+	text-decoration: none;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: #808080;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+									 }
+						 
+#mensec3 li a:hover {
+	display: block;
+	text-decoration: none;
+    font-weight: bold;
+	background-color: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 3px #FAEBD7, inset 0 -10px 10px #FAEBD7, 0 2px 1px #FAEBD7;
+	color: black;
+	text-shadow: 0 1px 1px black;
+	padding: 5px 10px;
+				 }
+				 
+#mensecimg1 {
+    width: 170px;
+    margin-top: 15px;
+    height: 130px;
+            }
+
+#mensecimg2 {
+    width: 170px;
+    margin-top: 15px;
+    height: 55px;
+            }
+
+.img { 
+	width: 100%; 
+	margin-top: 20px;
+	}

@@ -1,0 +1,75 @@
+/* CSS Document */
+
+#footer {
+	background-color: #F5F5F5;
+	border: thin #FFFAFA solid;
+	border-radius: 7px;
+	box-shadow: inset 0 1px 3px #DCDCDC, inset 0 5px 5px #DCDCDC, 0 2px 1px #DCDCDC;
+	color: #DCDCDC;
+    height: 170px;
+    margin-top: 15px;
+    clear: both;
+	   }
+       
+.style4 {
+    float: left;
+    padding: 15px 0 0 25px;
+    text-align: left;
+    font-size: small;
+    width: 220px;
+        }
+
+.style5 { 
+	line-height: 20px;
+	font-style: normal;
+		}
+
+.span1 { 
+    color: #CE6E00;
+    font-weight: bold;
+       }
+
+.style5 a:link, .style5 a:visited {
+    text-decoration: none;
+    color: grey;
+                                 }
+
+.style5 a:hover {
+    text-decoration: underline;
+	color: black;
+               }
+
+#end {
+    width: 1000px;
+    height: 15px;
+    margin-top: 15px; 
+	font-size: small;
+    color: grey;
+    float: left;
+     }
+
+.span {
+	font-weight: bold;
+    font-style: italic;
+	font-size: small;
+      }
+
+.align { 
+	float: right;
+	font-style: normal;
+	font-size: small;
+	   }
+      
+#end a:link, #end a:visited {
+    text-decoration: none;
+    color: grey;
+                          } 
+
+#end a:hover {
+    text-decoration: none;
+	color: black;
+			}
+			
+.copy {
+	font-size: small;
+	  }

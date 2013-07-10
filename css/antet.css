@@ -1,0 +1,119 @@
+/* CSS Document */	
+	
+* {
+	margin: 0px;
+    font-family: arial, georgia;
+ }
+
+#container {
+	background: white;
+	width: 1000px;
+	margin: 0 auto;
+		   }
+			
+#header {
+	background: white;
+	height: 100px;
+	margin-top: 5px;
+		}
+			
+table {
+	width: 100%;
+	}		
+	
+#antet1 {
+	background: white;
+    width: 250px;
+	height: 100px;
+	float: left;
+		}
+			
+#antet2 {
+	background: white;
+    width: 220px;
+    height: 30px;
+    margin-left: 225px;
+    font-size: small;
+	float: left;
+		}
+
+#antet2 ul {
+	list-style-type: none;
+    padding: 0px;
+    padding-top: 5px;
+		 }
+				
+#antet2 li { display: inline; }
+				
+#antet2 li a:link, #antet2 li a:visited {
+	text-decoration: none;
+    color: grey;
+			                       }
+       
+#antet2 li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+                }
+	 
+#antet3 {
+	background: white;
+    width: 230px;
+	height: 30px;
+	margin-left: 75px;
+    font-size: small;
+	float: left;
+		}
+
+#antet3 ul {
+	list-style-type: none;
+    padding: 0;
+    padding-top: 5px;
+		  }
+				
+#antet3 li { display: inline;}
+
+#antet3 img { vertical-align: text-top; }
+				
+#antet3 li a:link, #antet3 li a:visited { 
+    text-decoration: none;
+    color: grey;
+                                   }
+
+#antet3 li a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+                }
+
+#antet4 {
+	background-color: #F5F5F5;
+	border: thin #FFFAFA solid;
+	border-radius: 7px;
+	box-shadow: inset 0 1px 3px #DCDCDC, inset 0 5px 5px #DCDCDC, 0 2px 1px #DCDCDC;
+	color: #DCDCDC;
+    width: 520px;
+	height: 38px;
+    margin-left: 225px;
+    margin-top: 15px;
+	float: left;
+		}
+		
+#search {	
+	float: left;
+	margin: 8px 0 0 10px;
+	display: inline;
+		}
+		
+#search1 {
+	float: left;
+	margin: 5px 0 0 5px;
+		}
+		
+#textbar {
+	float: left;
+	margin: 8px 2px 0 30px;
+	font-size: medium;
+	font-style: italic;
+	color: #CE6E00;
+		}
